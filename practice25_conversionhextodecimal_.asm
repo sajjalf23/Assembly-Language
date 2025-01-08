@@ -7,7 +7,7 @@
     string1 db "enter from 0 to 9 or A to F $"
     string2 db "illegal number entered $"
     string3 db "u want to reenter the number enter Y/y $"
-    string4 db "in hexdecimal the answer is $"
+    string4 db "in decimal the answer is $"
     string5 db 13,10,"$"
 
 .code         ; code segment directive    
