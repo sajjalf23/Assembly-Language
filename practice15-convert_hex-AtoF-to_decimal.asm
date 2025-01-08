@@ -37,7 +37,7 @@
     int 21h
 
     mov dl , bl
-    add dl , 48               ; converting to ascii & displaying
+    add dl , 48      ; 48 == '0'          ; converting to ascii & displaying
     mov ah , 2
     int 21h
 
