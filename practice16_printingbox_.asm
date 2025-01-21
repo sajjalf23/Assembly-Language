@@ -5,7 +5,7 @@
 .data               ; data segment directive
     
     ; An AL Program to display a 10*10 solid box of asterisks
-    string1 db '********** $'
+    string1 db '********** ,13,10,$'
 
 .code            ; code segment directive
    
