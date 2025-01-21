@@ -8,6 +8,7 @@
     string2 db 'It is upper Case letter $'                           ; jbe              jump if below or equal to
     string3 db 'It is not upper Case letter $'                       ; jhe              jump if high or equal to
                                                                      ; cmp only minus too operand and store result in flags
+                                                                     ; ja               jump if above  
 
 .code         ; code segment directive    
 
